@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConversaoHexa</title>
+    <script src="IntToHex.js"></script>
+</head>
+<body>
+    <div>
+        <b2>Insira um número inteiro:</b2><br />
+        <input id = "dec"> <br />
+        <button onclick = "convert(document.getElementById('dec').value, 'decOutput', 'dec')">Converter para Hexadecimal</button> <br/>
+        <span id = "decOutput"></span><br />
+    </div>
+
+    <div>
+        <b2>Insira um número hexadecimal:</b2><br />
+        <input id = "hex"> <br />
+        <button onclick = "convert(document.getElementById('hex').value, 'hexOutput', 'hex')">Converter para Decimal</button><br/>
+        <span id = "hexOutput"></span>
+    </div>
+</body>
+</html>
